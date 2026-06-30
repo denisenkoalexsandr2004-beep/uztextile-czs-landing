@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://denisenkoalexsandr2004-beep.github.io/uztextile-czs-landing/sitemap.xml
