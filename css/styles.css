@@ -126,6 +126,8 @@ html[lang="zh"]{--font-display:'Manrope','Noto Sans SC',sans-serif}
 .header-inner{display:flex;align-items:center;gap:18px;height:100%}
 .brand{display:flex;align-items:center;gap:12px;min-width:0}
 .brand__mark{width:42px;height:42px;flex-shrink:0}
+.brand__logo{height:40px;width:auto;max-width:200px;flex-shrink:0;display:block;object-fit:contain}
+.brand__logo--footer{height:46px;max-width:220px}
 .brand__text{display:flex;flex-direction:column;line-height:1.05;min-width:0}
 .brand__title{font-family:var(--font-display);font-weight:700;font-size:15px;letter-spacing:.01em;color:var(--ink);white-space:nowrap}
 .brand__sub{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--teal-700);white-space:nowrap}
