@@ -99,7 +99,7 @@ window.I18N = {
       eyebrow: "Как проходит", title: "Как проходит день",
       steps: [
         { n: "01", title: "Регистрация и матчмейкинг", text: "Участники регистрируются на платформе; система подбирает релевантные пары по категориям." },
-        { n: "02", title: "Загрузка продукции", text: "Поставщик размещает презентацию, спецификации, фото и цены." },
+        { n: "02", title: "Размещение коммерческого предложения", text: "Поставщик загружает в личный кабинет готовое КП: презентацию, спецификации, фото и цены." },
         { n: "03", title: "Переговоры за столами", text: "Целевые встречи в переговорной зоне Узэкспоцентра — по расписанию." },
         { n: "04", title: "Договорённости", text: "Итоги и предварительный договор фиксируются в личном кабинете." }
       ],
@@ -237,7 +237,7 @@ window.I18N = {
       eyebrow: "Qanday oʻtadi", title: "Kun qanday oʻtadi",
       steps: [
         { n: "01", title: "Roʻyxat va matchmaking", text: "Ishtirokchilar platformada roʻyxatdan oʻtadi; tizim toifa boʻyicha mos juftliklarni tanlaydi." },
-        { n: "02", title: "Mahsulotni yuklash", text: "Yetkazib beruvchi taqdimot, spetsifikatsiya, foto va narxlarni joylaydi." },
+        { n: "02", title: "Tijoriy taklifni joylashtirish", text: "Yetkazib beruvchi shaxsiy kabinetga tayyor tijoriy taklifni yuklaydi: taqdimot, spetsifikatsiya, foto va narxlar." },
         { n: "03", title: "Stollarda muzokaralar", text: "Uzexpocentre muzokara zonasida jadval boʻyicha maqsadli uchrashuvlar." },
         { n: "04", title: "Kelishuvlar", text: "Yakun va dastlabki shartnoma shaxsiy kabinetda qayd etiladi." }
       ],
@@ -375,7 +375,7 @@ window.I18N = {
       eyebrow: "活动流程", title: "这一天如何进行",
       steps: [
         { n: "01", title: "注册与匹配", text: "参与者在平台注册；系统按品类匹配相关配对。" },
-        { n: "02", title: "上传产品", text: "供应商上传演示、规格、照片与价格。" },
+        { n: "02", title: "上传商业报价", text: "供应商将现成的商业报价上传至个人后台：演示、规格、照片与价格。" },
         { n: "03", title: "桌前洽谈", text: "在乌兹别克斯坦展览中心洽谈区按日程进行精准会面。" },
         { n: "04", title: "达成约定", text: "结果与初步合同在个人后台记录。" }
       ],
@@ -513,7 +513,7 @@ window.I18N = {
       eyebrow: "How it works", title: "How the day works",
       steps: [
         { n: "01", title: "Registration & matchmaking", text: "Participants register on the platform; the system matches relevant pairs by category." },
-        { n: "02", title: "Upload your products", text: "The supplier posts a presentation, specifications, photos and prices." },
+        { n: "02", title: "Upload your commercial offer", text: "The supplier uploads a ready commercial offer to the account: presentation, specifications, photos and prices." },
         { n: "03", title: "Negotiations at the tables", text: "Targeted meetings in the Uzexpocentre negotiation zone, on schedule." },
         { n: "04", title: "Agreements", text: "Outcomes and the preliminary contract are recorded in the account." }
       ],
