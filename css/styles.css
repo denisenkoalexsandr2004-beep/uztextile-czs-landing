@@ -290,6 +290,21 @@ html[lang="zh"]{--font-display:'Manrope','Noto Sans SC',sans-serif}
 }
 .aud-card--buyer.is-active{border-color:var(--gold)!important}
 
+/* ══════════ Results (track record) ══════════ */
+.results{background:var(--ink);color:#fff}
+.results .section-title{color:#fff}
+.results__head{text-align:center;max-width:72ch;margin:0 auto 34px}
+.results__head .section-lead{color:rgba(255,255,255,.72);margin-inline:auto}
+.results__grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.result{background:rgba(255,255,255,.05);border:1px solid var(--line-onDark);border-radius:var(--r-lg);padding:28px 22px;text-align:center;transition:transform .25s ease,border-color .25s ease}
+.result:hover{transform:translateY(-4px);border-color:var(--gold)}
+.result__num{font-family:var(--font-display);font-weight:700;font-size:clamp(28px,3.2vw,42px);color:var(--gold-300);line-height:1}
+.result__label{margin-top:12px;font-size:14.5px;color:rgba(255,255,255,.8);line-height:1.42}
+.results__note{display:flex;align-items:flex-start;gap:10px;justify-content:center;text-align:center;margin:26px auto 0;font-size:14px;color:rgba(255,255,255,.62);max-width:82ch}
+.results__note svg{width:18px;height:18px;color:var(--gold-300);flex-shrink:0;margin-top:2px}
+@media (max-width:860px){.results__grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.results__grid{grid-template-columns:1fr}}
+
 /* ══════════ Categories ══════════ */
 .categories{background:var(--white)}
 .categories__head{text-align:center;max-width:64ch;margin:0 auto 34px}

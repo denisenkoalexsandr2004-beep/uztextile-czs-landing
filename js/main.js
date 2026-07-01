@@ -77,6 +77,17 @@
       fg.appendChild(card);
     });
 
+    // results (track record) — stat cards
+    var rgs = document.getElementById("resultsGrid");
+    if (rgs) {
+      rgs.innerHTML = "";
+      (get(dict, "results.items") || []).forEach(function (r) {
+        var c = el("div", "result");
+        c.innerHTML = '<div class="result__num">' + r.num + "</div><div class=\"result__label\">" + r.label + "</div>";
+        rgs.appendChild(c);
+      });
+    }
+
     // audience benefit lists
     fillList("supplierList", get(dict, "aud.supplier.items"), "i-check");
     fillList("buyerList", get(dict, "aud.buyer.items"), "i-check");

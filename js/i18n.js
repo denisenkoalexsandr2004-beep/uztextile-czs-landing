@@ -1,7 +1,7 @@
 /* ════════════════════════════════════════════════════════════════
    i18n dictionary — UZ / RU / ZH / EN
    Keys are referenced from index.html via data-i18n="dot.path"
-   and rendered from arrays by main.js (lists, cats, steps, reviews).
+   and rendered from arrays by main.js (lists, cats, steps, results, reviews).
    ════════════════════════════════════════════════════════════════ */
 window.I18N = {
 
@@ -13,63 +13,75 @@ window.I18N = {
     hero: {
       badge1: "TextileExpo Uzbekistan 2026", badge2: "B2B Meetings",
       title: "Центр Закупок Сетей:", titleAccent: "Текстиль",
-      slogan: "Один день прямых переговоров поставщиков и закупщиков текстиля — лицом к лицу, на международной выставке TextileExpo Uzbekistan.",
+      slogan: "Договоритесь о поставках текстиля напрямую в торговые сети и на фабрики — на прямых переговорах за один день, по технологии Центра Закупок Сетей.",
       dateLabel: "Дата", dateVal: "9 сентября 2026",
       placeLabel: "Место", placeVal: "Узэкспоцентр, Ташкент",
       formatLabel: "Формат", formatVal: "Деловые B2B-встречи",
       roleLabel: "Я участвую как:", roleSupplier: "Поставщик", roleBuyer: "Закупщик",
-      hintSupplier: "Покажите продукцию вживую закупщикам фабрик, госструктур, HoReCa и ритейла — и выйдите на прямые переговоры за один день.",
-      hintBuyer: "За один день получите концентрированный обзор поставщиков текстиля: увидите продукт вживую и проведёте прямые переговоры.",
+      hintSupplier: "Прямой выход на закупщиков сетей, фабрик, госзаказа и HoReCa. Матчмейкинг по вашей категории, подготовка к переговорам и предварительный договор на площадке.",
+      hintBuyer: "Проверенные поставщики и новинки рынка в одном месте: индивидуальный график встреч только по нужным категориям и протокол по каждой договорённости.",
       cta: "Стать участником", cta2: "Подробнее о событии"
     },
     facts: { items: [
       { num: "09.09.2026", label: "TextileExpo Uzbekistan · Ташкент" },
-      { num: "1 день", label: "Формат прямых B2B-встреч" },
-      { num: "2 стороны", label: "Поставщики и закупщики" },
-      { num: "Личный кабинет", label: "У каждого участника на B2B-платформе" }
+      { num: "1 день", label: "Прямые B2B-переговоры с сетями" },
+      { num: "Матчмейкинг", label: "Встречи только по вашей категории" },
+      { num: "Личный кабинет", label: "КП, протоколы и предварительный договор" }
     ]},
     about: {
       eyebrow: "О мероприятии",
-      title: "Площадка, где текстильный рынок встречается лицом к лицу",
-      p1: "<strong>Центр Закупок Сетей: Текстиль</strong> — это деловой формат прямых переговоров (B2B meetings), который проходит в рамках международной выставки <strong>TextileExpo Uzbekistan 2026</strong> в Узэкспоцентре (Ташкент).",
-      p2: "За один день поставщики текстильной продукции, оборудования и фурнитуры встречаются лицом к лицу с закупщиками: фабриками по производству одежды, государственными структурами, сетями HoReCa, ритейлерами и профильными магазинами.",
-      p3: "<strong>Цель события</strong> — за один день перевести интерес к продукту в прямой разговор с закупщиком и конкретные коммерческие договорённости.",
+      title: "Технология прямых переговоров поставщика с сетью",
+      p1: "<strong>Центр Закупок Сетей™</strong> — технология организации деловых переговоров, при которой поставщик лично проводит экспресс-презентацию закупщику и договаривается о поставках текстиля в крупнейшие торговые сети и на фабрики. Проходит в рамках выставки <strong>TextileExpo Uzbekistan 2026</strong> (Узэкспоцентр, Ташкент).",
+      p2: "Интересы сторон анализируются заранее: встречи назначаются <strong>только между заинтересованными</strong> закупщиками и поставщиками по конкретной категории продукции. Никаких случайных контактов — только целевые переговоры.",
+      p3: "По опыту Центра Закупок Сетей более <strong>80% переговоров</strong> завершаются подписанием предварительного договора о поставках — прямо на площадке.",
       platform: {
-        tag: "Платформа мероприятия", title: "B2B-платформа Центра Закупок Сетей",
-        desc: "Все поставщики и закупщики зарегистрированы на специальной B2B-платформе, которая была разработана под Центр Закупок Сетей и имеет аккредитацию в Сколково (Москва). У каждого участника мероприятия — свой личный кабинет, итоги всех переговоров и предварительные контракты.",
-        li1: "Поставщик загружает презентацию товара с ценами, которую хочет показать закупщику.",
-        li2: "Закупщик на мероприятии видит все презентации поставщиков за персональным компьютером (предоставляется каждому закупщику).",
-        li3: "Переговоры идут в реальном времени: закупщик фиксирует комментарии и итоги на платформе во время диалога с поставщиком."
+        tag: "Платформа мероприятия", title: "Онлайн-платформа Центра Закупок Сетей",
+        desc: "Все участники зарегистрированы на специальной B2B-платформе (разработана под Центр Закупок Сетей, аккредитация в Сколково). У каждого — личный кабинет с презентациями, итогами переговоров и предварительными договорами.",
+        li1: "Поставщик загружает презентацию, спецификации, фото и цены товара.",
+        li2: "Закупщик изучает предложения за персональным компьютером на площадке.",
+        li3: "Итоги фиксируются в реальном времени, предварительный договор формируется в личном кабинете."
       }
+    },
+    results: {
+      eyebrow: "Результаты формата",
+      title: "Центр Закупок Сетей уже работает",
+      lead: "Технологию проводит ООО «Империя Форум» на ведущих выставках России и СНГ. Итоги Центра Закупок Сетей на WorldFood Moscow 2025:",
+      items: [
+        { num: "3 528", label: "переговоров за одно событие" },
+        { num: "2 834", label: "заключённых договора" },
+        { num: "80%+", label: "встреч → предварительный договор" },
+        { num: "200+", label: "категорийных закупщиков сетей" }
+      ],
+      note: "Формат работает и для непродовольственных категорий — например, «Центр Закупок Сетей: Климатические системы и оборудование» на выставке «Мир Климата»."
     },
     aud: {
       eyebrow: "Для кого", title: "Две стороны одной сделки",
-      lead: "Мероприятие объединяет тех, кто производит и поставляет текстиль, и тех, кто закупает его для бизнеса.",
+      lead: "Мероприятие сводит тех, кто производит и поставляет текстиль, с закупщиками сетей, фабрик и бизнеса — напрямую, без посредников и холодных писем.",
       supplier: {
         title: "Поставщикам", sub: "Текстиль · оборудование · фурнитура",
         items: [
-          "Прямой доступ к закупщикам фабрик, госзаказа, HoReCa и ритейла.",
-          "Возможность показать продукцию вживую — образцы, фактуру, качество.",
-          "Личный кабинет на платформе с презентацией продукта и ценами.",
-          "Обратная связь по цене, упаковке, условиям и логистике.",
-          "Переход от холодного контакта к предметным переговорам за один день."
+          "Прямой доступ к закупщикам, уполномоченным заключать сделки: сети, фабрики, госзаказ, HoReCa.",
+          "Матчмейкинг: встречи назначаются только с теми, кому интересна ваша категория.",
+          "Досье закупщиков и подготовка к переговорам — приходите с готовым предложением.",
+          "Личный кабинет: презентация, спецификации, фото и цены продукта.",
+          "Протокол по каждой встрече и предварительный договор прямо на площадке."
         ]
       },
       buyer: {
         title: "Закупщикам", sub: "Фабрики · госструктуры · HoReCa · ритейл",
         items: [
-          "Концентрированный обзор поставщиков текстиля за один день.",
-          "Возможность увидеть и пощупать продукцию вживую.",
-          "Доступ ко всем презентациям поставщиков в личном кабинете онлайн.",
-          "Сравнение нескольких поставщиков в одной категории.",
-          "Прямые переговоры вместо потока холодных писем."
+          "Весь релевантный рынок текстиля в одном месте — только проверенные поставщики.",
+          "Эксклюзивный доступ к новинкам рынка: новые ткани, технологии, составы и решения.",
+          "Индивидуальный график встреч только по нужным вам категориям.",
+          "Продукт вживую: оценить фактуру и качество, задать вопросы напрямую.",
+          "Структурированный протокол по каждой договорённости — быстрее согласование."
         ]
       }
     },
     cats: {
       eyebrow: "Ассортимент",
-      title: "Категории, которые будут закупать и поставлять",
-      lead: "Текстильный рынок — от сырья до готовой продукции и оборудования.",
+      title: "Предлагаемые категории продукции",
+      lead: "От сырья до готовых изделий, оборудования и фурнитуры.",
       items: [
         "Сырьё и волокна",
         "Пряжа, нити и швейные нитки",
@@ -84,12 +96,12 @@ window.I18N = {
       ]
     },
     how: {
-      eyebrow: "Как проходит", title: "Один день — от презентации до договорённостей",
+      eyebrow: "Как проходит", title: "Как проходит день",
       steps: [
-        { n: "01", title: "Регистрация на платформе", text: "Поставщики и закупщики получают личный кабинет на B2B-платформе." },
-        { n: "02", title: "Загрузка продукции", text: "Поставщик размещает презентацию, образцы и цены в кабинете." },
-        { n: "03", title: "Прямые переговоры", text: "В день события — встречи за переговорными столами в Узэкспоцентре." },
-        { n: "04", title: "Договорённости", text: "Закупщик видит предложения онлайн и фиксирует итоги и предварительные контракты." }
+        { n: "01", title: "Регистрация и матчмейкинг", text: "Участники регистрируются на платформе; система подбирает релевантные пары по категориям." },
+        { n: "02", title: "Загрузка продукции", text: "Поставщик размещает презентацию, спецификации, фото и цены." },
+        { n: "03", title: "Переговоры за столами", text: "Целевые встречи в переговорной зоне Узэкспоцентра — по расписанию." },
+        { n: "04", title: "Договорённости", text: "Итоги и предварительный договор фиксируются в личном кабинете." }
       ],
       hall: {
         title: "Как устроен зал",
@@ -139,63 +151,75 @@ window.I18N = {
     hero: {
       badge1: "TextileExpo Uzbekistan 2026", badge2: "B2B uchrashuvlar",
       title: "Tarmoqlar Xarid Markazi:", titleAccent: "Toʻqimachilik",
-      slogan: "Toʻqimachilik yetkazib beruvchilar va xaridorlarning bir kunlik toʻgʻridan-toʻgʻri muzokaralari — TextileExpo Uzbekistan xalqaro koʻrgazmasida yuzma-yuz.",
+      slogan: "Toʻqimachilik mahsulotlaringizni yirik savdo tarmoqlari va fabrikalarga toʻgʻridan-toʻgʻri yetkazib berish boʻyicha bir kunda kelishing — Tarmoqlar Xarid Markazi texnologiyasi asosida.",
       dateLabel: "Sana", dateVal: "2026-yil 9-sentyabr",
       placeLabel: "Manzil", placeVal: "Uzexpocentre, Toshkent",
       formatLabel: "Format", formatVal: "B2B ishbilarmonlik uchrashuvlari",
       roleLabel: "Men ishtirok etaman:", roleSupplier: "Yetkazib beruvchi", roleBuyer: "Xaridor",
-      hintSupplier: "Mahsulotingizni fabrikalar, davlat tashkilotlari, HoReCa va riteyl xaridorlariga jonli koʻrsating — va bir kunda toʻgʻridan-toʻgʻri muzokaralarga chiqing.",
-      hintBuyer: "Bir kunda toʻqimachilik yetkazib beruvchilarining toʻliq sharhini oling: mahsulotni jonli koʻring va toʻgʻridan-toʻgʻri muzokaralar oʻtkazing.",
+      hintSupplier: "Tarmoqlar, fabrikalar, davlat buyurtmasi va HoReCa xaridorlariga toʻgʻridan-toʻgʻri chiqish. Toifangiz boʻyicha matchmaking, muzokaraga tayyorgarlik va joyda dastlabki shartnoma.",
+      hintBuyer: "Tekshirilgan yetkazib beruvchilar va bozor yangiliklari bir joyda: faqat kerakli toifalar boʻyicha individual jadval va har bir kelishuv boʻyicha bayonnoma.",
       cta: "Ishtirokchi boʻlish", cta2: "Tadbir haqida batafsil"
     },
     facts: { items: [
       { num: "09.09.2026", label: "TextileExpo Uzbekistan · Toshkent" },
-      { num: "1 kun", label: "Toʻgʻridan-toʻgʻri B2B uchrashuvlar" },
-      { num: "2 taraf", label: "Yetkazib beruvchilar va xaridorlar" },
-      { num: "Shaxsiy kabinet", label: "Har bir ishtirokchida B2B-platformada" }
+      { num: "1 kun", label: "Tarmoqlar bilan toʻgʻridan-toʻgʻri B2B muzokaralar" },
+      { num: "Matchmaking", label: "Faqat sizning toifangiz boʻyicha uchrashuvlar" },
+      { num: "Shaxsiy kabinet", label: "Taklif, bayonnoma va dastlabki shartnoma" }
     ]},
     about: {
       eyebrow: "Tadbir haqida",
-      title: "Toʻqimachilik bozori yuzma-yuz uchrashadigan maydon",
-      p1: "<strong>Tarmoqlar Xarid Markazi: Toʻqimachilik</strong> — bu <strong>TextileExpo Uzbekistan 2026</strong> xalqaro koʻrgazmasi doirasida Uzexpocentre (Toshkent)da oʻtadigan toʻgʻridan-toʻgʻri muzokaralar (B2B meetings) formati.",
-      p2: "Bir kun davomida toʻqimachilik mahsulotlari, jihozlar va furnitura yetkazib beruvchilar xaridorlar bilan yuzma-yuz uchrashadi: kiyim ishlab chiqaruvchi fabrikalar, davlat tashkilotlari, HoReCa tarmoqlari, riteylerlar va ixtisoslashgan doʻkonlar.",
-      p3: "<strong>Tadbir maqsadi</strong> — bir kun ichida mahsulotga boʻlgan qiziqishni xaridor bilan toʻgʻridan-toʻgʻri suhbatga va aniq tijoriy kelishuvlarga aylantirish.",
+      title: "Yetkazib beruvchi va tarmoq oʻrtasidagi toʻgʻridan-toʻgʻri muzokaralar texnologiyasi",
+      p1: "<strong>Tarmoqlar Xarid Markazi™</strong> — ishbilarmonlik muzokaralarini tashkil etish texnologiyasi boʻlib, unda yetkazib beruvchi xaridorga shaxsan ekspress-taqdimot oʻtkazadi va toʻqimachilik mahsulotlarini yirik savdo tarmoqlari hamda fabrikalarga yetkazib berish boʻyicha kelishadi. <strong>TextileExpo Uzbekistan 2026</strong> koʻrgazmasi doirasida (Uzexpocentre, Toshkent) oʻtadi.",
+      p2: "Tomonlarning qiziqishlari oldindan tahlil qilinadi: uchrashuvlar <strong>faqat manfaatdor</strong> xaridor va yetkazib beruvchilar oʻrtasida aniq mahsulot toifasi boʻyicha tayinlanadi. Tasodifiy aloqalar yoʻq — faqat maqsadli muzokaralar.",
+      p3: "Tarmoqlar Xarid Markazi tajribasiga koʻra muzokaralarning <strong>80%+</strong> yetkazib berish boʻyicha dastlabki shartnoma imzolash bilan yakunlanadi — bevosita maydonda.",
       platform: {
-        tag: "Tadbir platformasi", title: "Tarmoqlar Xarid Markazi B2B-platformasi",
-        desc: "Barcha yetkazib beruvchilar va xaridorlar Tarmoqlar Xarid Markazi uchun maxsus ishlab chiqilgan va Skolkovo (Moskva) akkreditatsiyasiga ega B2B-platformada roʻyxatdan oʻtgan. Har bir ishtirokchining shaxsiy kabineti, barcha muzokaralar yakunlari va dastlabki shartnomalari boʻladi.",
-        li1: "Yetkazib beruvchi narxlari bilan mahsulot taqdimotini yuklaydi va uni xaridorga koʻrsatadi.",
-        li2: "Xaridor tadbirda barcha yetkazib beruvchilar taqdimotlarini shaxsiy kompyuterda koʻradi (har bir xaridorga beriladi).",
-        li3: "Muzokaralar real vaqtda boradi: xaridor suhbat davomida platformada izoh va yakunlarni qayd etadi."
+        tag: "Tadbir platformasi", title: "Tarmoqlar Xarid Markazi onlayn-platformasi",
+        desc: "Barcha ishtirokchilar maxsus B2B-platformada roʻyxatdan oʻtgan (Tarmoqlar Xarid Markazi uchun ishlab chiqilgan, Skolkovo akkreditatsiyasi). Har birida taqdimotlar, muzokaralar yakunlari va dastlabki shartnomalar bilan shaxsiy kabinet.",
+        li1: "Yetkazib beruvchi taqdimot, spetsifikatsiya, foto va mahsulot narxlarini yuklaydi.",
+        li2: "Xaridor maydonda shaxsiy kompyuterda takliflarni oʻrganadi.",
+        li3: "Yakunlar real vaqtda qayd etiladi, dastlabki shartnoma shaxsiy kabinetda shakllanadi."
       }
+    },
+    results: {
+      eyebrow: "Format natijalari",
+      title: "Tarmoqlar Xarid Markazi allaqachon ishlaydi",
+      lead: "Texnologiyani «Imperia Forum» MChJ Rossiya va MDH yetakchi koʻrgazmalarida oʻtkazadi. WorldFood Moscow 2025 dagi Tarmoqlar Xarid Markazi yakunlari:",
+      items: [
+        { num: "3 528", label: "bitta tadbirdagi muzokaralar" },
+        { num: "2 834", label: "tuzilgan shartnoma" },
+        { num: "80%+", label: "uchrashuv → dastlabki shartnoma" },
+        { num: "200+", label: "tarmoqlarning toifa xaridorlari" }
+      ],
+      note: "Format nooziq-ovqat toifalari uchun ham ishlaydi — masalan, «Mir Klimata» koʻrgazmasidagi «Tarmoqlar Xarid Markazi: Iqlim tizimlari va jihozlari»."
     },
     aud: {
       eyebrow: "Kim uchun", title: "Bir bitimning ikki tarafi",
-      lead: "Tadbir toʻqimachilik ishlab chiqaruvchi va yetkazib beruvchilar hamda uni biznes uchun sotib oluvchilarni birlashtiradi.",
+      lead: "Tadbir toʻqimachilik ishlab chiqaruvchi va yetkazib beruvchilarni tarmoq, fabrika va biznes xaridorlari bilan toʻgʻridan-toʻgʻri, vositachisiz bogʻlaydi.",
       supplier: {
         title: "Yetkazib beruvchilarga", sub: "Toʻqimachilik · jihozlar · furnitura",
         items: [
-          "Fabrikalar, davlat buyurtmasi, HoReCa va riteyl xaridorlariga toʻgʻridan-toʻgʻri kirish.",
-          "Mahsulotni jonli koʻrsatish imkoniyati — namunalar, tuzilma, sifat.",
-          "Platformada mahsulot taqdimoti va narxlari bilan shaxsiy kabinet.",
-          "Narx, qadoqlash, shartlar va logistika boʻyicha fikr-mulohaza.",
-          "Bir kunda sovuq aloqadan aniq muzokaralarga oʻtish."
+          "Bitim tuzishga vakolatli xaridorlarga toʻgʻridan-toʻgʻri kirish: tarmoqlar, fabrikalar, davlat buyurtmasi, HoReCa.",
+          "Matchmaking: uchrashuvlar faqat toifangizga qiziquvchilar bilan tayinlanadi.",
+          "Xaridorlar dosyesi va muzokaraga tayyorgarlik — tayyor taklif bilan kelasiz.",
+          "Shaxsiy kabinet: taqdimot, spetsifikatsiya, foto va mahsulot narxlari.",
+          "Har bir uchrashuv boʻyicha bayonnoma va joyda dastlabki shartnoma."
         ]
       },
       buyer: {
         title: "Xaridorlarga", sub: "Fabrikalar · davlat · HoReCa · riteyl",
         items: [
-          "Bir kunda toʻqimachilik yetkazib beruvchilarining jamlangan sharhi.",
-          "Mahsulotni jonli koʻrish va ushlab koʻrish imkoniyati.",
-          "Shaxsiy kabinetda barcha yetkazib beruvchilar taqdimotlariga onlayn kirish.",
-          "Bir toifadagi bir nechta yetkazib beruvchini solishtirish.",
-          "Sovuq xatlar oqimi oʻrniga toʻgʻridan-toʻgʻri muzokaralar."
+          "Toʻqimachilikning butun tegishli bozori bir joyda — faqat tekshirilgan yetkazib beruvchilar.",
+          "Bozor yangiliklariga eksklyuziv kirish: yangi matolar, texnologiyalar, tarkiblar va yechimlar.",
+          "Faqat sizga kerakli toifalar boʻyicha individual uchrashuvlar jadvali.",
+          "Mahsulot jonli: tuzilma va sifatni baholang, savollarni bevosita bering.",
+          "Har bir kelishuv boʻyicha tuzilgan bayonnoma — kelishuv tezroq."
         ]
       }
     },
     cats: {
       eyebrow: "Assortiment",
-      title: "Xaridor va yetkazib beruvchilar uchun kategoriyalar",
-      lead: "Toʻqimachilik bozori — xom ashyodan tayyor mahsulot va jihozlargacha.",
+      title: "Taklif etiladigan mahsulot toifalari",
+      lead: "Xom ashyodan tayyor buyum, jihoz va furnituragacha.",
       items: [
         "Xom ashyo va tolalar",
         "Ip, kalava va tikuv iplari",
@@ -210,12 +234,12 @@ window.I18N = {
       ]
     },
     how: {
-      eyebrow: "Qanday oʻtadi", title: "Bir kun — taqdimotdan kelishuvgacha",
+      eyebrow: "Qanday oʻtadi", title: "Kun qanday oʻtadi",
       steps: [
-        { n: "01", title: "Platformada roʻyxatdan oʻtish", text: "Yetkazib beruvchilar va xaridorlar B2B-platformada shaxsiy kabinet oladi." },
-        { n: "02", title: "Mahsulotni yuklash", text: "Yetkazib beruvchi taqdimot, namuna va narxlarni kabinetga joylaydi." },
-        { n: "03", title: "Toʻgʻridan-toʻgʻri muzokaralar", text: "Tadbir kuni — Uzexpocentredagi muzokara stollarida uchrashuvlar." },
-        { n: "04", title: "Kelishuvlar", text: "Xaridor takliflarni onlayn koʻradi, yakun va dastlabki shartnomalarni qayd etadi." }
+        { n: "01", title: "Roʻyxat va matchmaking", text: "Ishtirokchilar platformada roʻyxatdan oʻtadi; tizim toifa boʻyicha mos juftliklarni tanlaydi." },
+        { n: "02", title: "Mahsulotni yuklash", text: "Yetkazib beruvchi taqdimot, spetsifikatsiya, foto va narxlarni joylaydi." },
+        { n: "03", title: "Stollarda muzokaralar", text: "Uzexpocentre muzokara zonasida jadval boʻyicha maqsadli uchrashuvlar." },
+        { n: "04", title: "Kelishuvlar", text: "Yakun va dastlabki shartnoma shaxsiy kabinetda qayd etiladi." }
       ],
       hall: {
         title: "Zal qanday tashkil etilgan",
@@ -265,63 +289,75 @@ window.I18N = {
     hero: {
       badge1: "TextileExpo Uzbekistan 2026", badge2: "B2B 商务洽谈",
       title: "连锁采购中心：", titleAccent: "纺织",
-      slogan: "纺织供应商与采购商面对面的一日直接洽谈 —— 在 TextileExpo Uzbekistan 国际展会现场。",
+      slogan: "按连锁采购中心的技术，一天之内就纺织品直接供货给大型零售连锁与工厂达成约定。",
       dateLabel: "日期", dateVal: "2026年9月9日",
       placeLabel: "地点", placeVal: "乌兹别克斯坦展览中心，塔什干",
       formatLabel: "形式", formatVal: "B2B 商务洽谈",
       roleLabel: "我的参与身份：", roleSupplier: "供应商", roleBuyer: "采购商",
-      hintSupplier: "向工厂、政府机构、HoReCa 及零售采购商现场展示产品 —— 一天之内进入直接洽谈。",
-      hintBuyer: "一天之内获得纺织供应商的集中概览：现场查看产品并进行直接洽谈。",
+      hintSupplier: "直接触达连锁、工厂、政府采购及 HoReCa 采购商：按您的品类匹配、洽谈准备，并在现场签署初步合同。",
+      hintBuyer: "经过筛选的供应商与市场新品集中一处：仅按所需品类的个性化洽谈日程，每笔约定均有纪要。",
       cta: "成为参与者", cta2: "了解活动详情"
     },
     facts: { items: [
       { num: "2026.09.09", label: "TextileExpo Uzbekistan · 塔什干" },
-      { num: "1 天", label: "直接 B2B 洽谈形式" },
-      { num: "2 方", label: "供应商与采购商" },
-      { num: "个人后台", label: "每位参与者均在 B2B 平台" }
+      { num: "1 天", label: "与连锁的直接 B2B 洽谈" },
+      { num: "精准匹配", label: "只安排您品类的会面" },
+      { num: "个人后台", label: "报价、纪要与初步合同" }
     ]},
     about: {
       eyebrow: "关于活动",
-      title: "纺织市场面对面相遇的平台",
-      p1: "<strong>连锁采购中心：纺织</strong> 是一种直接洽谈（B2B meetings）形式，在 <strong>TextileExpo Uzbekistan 2026</strong> 国际展会期间于乌兹别克斯坦展览中心（塔什干）举办。",
-      p2: "在一天之内，纺织产品、设备及辅料供应商与采购商面对面会面：服装制造工厂、政府机构、HoReCa 连锁、零售商及专业门店。",
-      p3: "<strong>活动目标</strong> —— 在一天之内，将对产品的兴趣转化为与采购商的直接对话和具体的商务约定。",
+      title: "供应商与连锁直接洽谈的技术",
+      p1: "<strong>连锁采购中心™</strong> 是一种组织商务洽谈的技术：供应商亲自向采购商进行快速展示，就纺织品供货给大型零售连锁与工厂达成约定。在 <strong>TextileExpo Uzbekistan 2026</strong> 展会期间于乌兹别克斯坦展览中心（塔什干）举办。",
+      p2: "双方意向预先分析：会面<strong>只在感兴趣的</strong>采购商与供应商之间、按具体产品品类安排。没有随机接触 —— 只有精准洽谈。",
+      p3: "据连锁采购中心的经验，超过 <strong>80% 的洽谈</strong>当场以签署供货初步合同结束。",
       platform: {
-        tag: "活动平台", title: "连锁采购中心 B2B 平台",
-        desc: "所有供应商和采购商均在一个专为连锁采购中心开发、并获得斯科尔科沃（莫斯科）认证的 B2B 平台上注册。每位参与者都拥有个人后台，可查看所有洽谈结果及初步合同。",
-        li1: "供应商上传带价格的产品演示，以展示给采购商。",
-        li2: "采购商在活动现场通过个人电脑查看所有供应商的演示（为每位采购商提供电脑）。",
-        li3: "洽谈实时进行：采购商在与供应商对话时，在平台上记录评论和结果。"
+        tag: "活动平台", title: "连锁采购中心在线平台",
+        desc: "所有参与者均在专用 B2B 平台注册（为连锁采购中心开发，获斯科尔科沃认证）。每人拥有个人后台，含演示、洽谈结果与初步合同。",
+        li1: "供应商上传演示、规格、照片与产品价格。",
+        li2: "采购商在现场通过个人电脑研究各项提案。",
+        li3: "结果实时记录，初步合同在个人后台生成。"
       }
+    },
+    results: {
+      eyebrow: "成效数据",
+      title: "连锁采购中心已在运作",
+      lead: "该技术由「Imperia Forum」有限责任公司在俄罗斯及独联体的领先展会上举办。WorldFood Moscow 2025 连锁采购中心成果：",
+      items: [
+        { num: "3 528", label: "单场活动洽谈次数" },
+        { num: "2 834", label: "已签署合同" },
+        { num: "80%+", label: "洽谈 → 初步合同" },
+        { num: "200+", label: "连锁品类采购商" }
+      ],
+      note: "该模式同样适用于非食品品类 —— 例如「气候世界」展会上的「连锁采购中心：气候系统与设备」。"
     },
     aud: {
       eyebrow: "面向人群", title: "一笔交易的两方",
-      lead: "活动汇集了生产和供应纺织品的一方，以及为业务采购纺织品的一方。",
+      lead: "活动将纺织品生产与供应方，同连锁、工厂及企业采购商直接对接 —— 无中介、无冷邮件。",
       supplier: {
         title: "致供应商", sub: "纺织 · 设备 · 辅料",
         items: [
-          "直接接触工厂、政府订单、HoReCa 及零售采购商。",
-          "现场展示产品的机会 —— 样品、质地、品质。",
-          "在平台拥有含产品演示及价格的个人后台。",
-          "获得关于价格、包装、条款及物流的反馈。",
-          "一天之内从冷接触转为实质性洽谈。"
+          "直接接触有权签约的采购商：连锁、工厂、政府采购、HoReCa。",
+          "精准匹配：只与对您品类感兴趣者安排会面。",
+          "采购商档案与洽谈准备 —— 带着成熟提案赴会。",
+          "个人后台：演示、规格、照片与产品价格。",
+          "每次会面均有纪要，现场即签初步合同。"
         ]
       },
       buyer: {
         title: "致采购商", sub: "工厂 · 政府 · HoReCa · 零售",
         items: [
-          "一天之内获得纺织供应商的集中概览。",
-          "现场查看并触摸产品的机会。",
-          "在个人后台在线查看所有供应商的演示。",
-          "在同一品类中比较多家供应商。",
-          "以直接洽谈取代大量冷邮件。"
+          "整个相关纺织市场集中一处 —— 只有经过筛选的供应商。",
+          "独家接触市场新品：新面料、新技术、新成分与新方案。",
+          "仅按您所需品类的个性化会面日程。",
+          "现场看货：评估质地与品质，直接提问。",
+          "每笔约定均有结构化纪要 —— 内部审批更快。"
         ]
       }
     },
     cats: {
       eyebrow: "品类范围",
-      title: "采购与供应的品类",
-      lead: "纺织市场 —— 从原料到成品和设备。",
+      title: "拟采购与供应的产品品类",
+      lead: "从原料到成品、设备与辅料。",
       items: [
         "原料与纤维",
         "纱线、丝线与缝纫线",
@@ -336,12 +372,12 @@ window.I18N = {
       ]
     },
     how: {
-      eyebrow: "活动流程", title: "一天 —— 从演示到达成约定",
+      eyebrow: "活动流程", title: "这一天如何进行",
       steps: [
-        { n: "01", title: "平台注册", text: "供应商与采购商在 B2B 平台获得个人后台。" },
-        { n: "02", title: "上传产品", text: "供应商在后台上传演示、样品和价格。" },
-        { n: "03", title: "直接洽谈", text: "活动当天 —— 在乌兹别克斯坦展览中心的洽谈桌前会面。" },
-        { n: "04", title: "达成约定", text: "采购商在线查看报价，记录结果和初步合同。" }
+        { n: "01", title: "注册与匹配", text: "参与者在平台注册；系统按品类匹配相关配对。" },
+        { n: "02", title: "上传产品", text: "供应商上传演示、规格、照片与价格。" },
+        { n: "03", title: "桌前洽谈", text: "在乌兹别克斯坦展览中心洽谈区按日程进行精准会面。" },
+        { n: "04", title: "达成约定", text: "结果与初步合同在个人后台记录。" }
       ],
       hall: {
         title: "展厅布局",
@@ -391,63 +427,75 @@ window.I18N = {
     hero: {
       badge1: "TextileExpo Uzbekistan 2026", badge2: "B2B Meetings",
       title: "Networks Purchasing Center:", titleAccent: "Textile",
-      slogan: "One day of direct, face-to-face negotiations between textile suppliers and buyers — at the TextileExpo Uzbekistan international exhibition.",
+      slogan: "Agree on supplying your textiles directly to major retail chains and factories — in one day of direct negotiations, using the Networks Purchasing Center technology.",
       dateLabel: "Date", dateVal: "September 9, 2026",
       placeLabel: "Venue", placeVal: "Uzexpocentre, Tashkent",
       formatLabel: "Format", formatVal: "B2B business meetings",
       roleLabel: "I'm taking part as:", roleSupplier: "Supplier", roleBuyer: "Buyer",
-      hintSupplier: "Show your products live to buyers from factories, government bodies, HoReCa and retail — and move into direct negotiations in a single day.",
-      hintBuyer: "In one day, get a concentrated overview of textile suppliers: see the product live and hold direct negotiations.",
+      hintSupplier: "Direct access to buyers from retail chains, factories, government procurement and HoReCa. Category matchmaking, negotiation prep and a preliminary contract on site.",
+      hintBuyer: "Vetted suppliers and market novelties in one place: a personal schedule of meetings in your categories only, with a protocol for every agreement.",
       cta: "Become a participant", cta2: "Learn more"
     },
     facts: { items: [
       { num: "09.09.2026", label: "TextileExpo Uzbekistan · Tashkent" },
-      { num: "1 day", label: "Direct B2B meeting format" },
-      { num: "2 sides", label: "Suppliers and buyers" },
-      { num: "Personal account", label: "For every participant on the B2B platform" }
+      { num: "1 day", label: "Direct B2B negotiations with chains" },
+      { num: "Matchmaking", label: "Meetings only in your category" },
+      { num: "Personal account", label: "Offer, protocols and preliminary contract" }
     ]},
     about: {
       eyebrow: "About the event",
-      title: "Where the textile market meets face to face",
-      p1: "<strong>Networks Purchasing Center: Textile</strong> is a direct-negotiation format (B2B meetings) held within the <strong>TextileExpo Uzbekistan 2026</strong> international exhibition at the Uzexpocentre (Tashkent).",
-      p2: "In a single day, suppliers of textile products, equipment and fittings meet buyers face to face: garment factories, government bodies, HoReCa chains, retailers and specialized stores.",
-      p3: "<strong>The goal</strong> is to turn interest in a product into a direct conversation with a buyer — and concrete commercial agreements — within one day.",
+      title: "A technology for direct supplier-to-chain negotiations",
+      p1: "<strong>Networks Purchasing Center™</strong> is a technology for running business negotiations, where a supplier personally gives an express presentation to a buyer and agrees on supplying textiles to major retail chains and factories. Held within the <strong>TextileExpo Uzbekistan 2026</strong> exhibition (Uzexpocentre, Tashkent).",
+      p2: "Both sides' interests are analyzed in advance: meetings are scheduled <strong>only between interested</strong> buyers and suppliers for a specific product category. No random contacts — only targeted negotiations.",
+      p3: "Based on Networks Purchasing Center experience, over <strong>80% of negotiations</strong> end with a signed preliminary supply contract — right on site.",
       platform: {
-        tag: "Event platform", title: "Networks Purchasing Center B2B platform",
-        desc: "All suppliers and buyers are registered on a dedicated B2B platform built for the Networks Purchasing Center and accredited by Skolkovo (Moscow). Every participant has a personal account with the results of all negotiations and preliminary contracts.",
-        li1: "The supplier uploads a product presentation with prices to show to the buyer.",
-        li2: "At the event, the buyer views every supplier's presentation on a personal computer (provided to each buyer).",
-        li3: "Negotiations run in real time: the buyer records comments and outcomes on the platform during the conversation."
+        tag: "Event platform", title: "The Networks Purchasing Center online platform",
+        desc: "All participants are registered on a dedicated B2B platform (built for the Networks Purchasing Center, accredited by Skolkovo). Everyone has a personal account with presentations, negotiation results and preliminary contracts.",
+        li1: "The supplier uploads a presentation, specifications, photos and product prices.",
+        li2: "The buyer reviews offers on a personal computer on site.",
+        li3: "Outcomes are recorded in real time; the preliminary contract is generated in the account."
       }
+    },
+    results: {
+      eyebrow: "Proven results",
+      title: "The Networks Purchasing Center already works",
+      lead: "The technology is run by Imperia Forum LLC at leading exhibitions across Russia and the CIS. Results of the Networks Purchasing Center at WorldFood Moscow 2025:",
+      items: [
+        { num: "3,528", label: "negotiations at one event" },
+        { num: "2,834", label: "contracts signed" },
+        { num: "80%+", label: "meetings → preliminary contract" },
+        { num: "200+", label: "category buyers from retail chains" }
+      ],
+      note: "The format also works for non-food categories — e.g. 'Networks Purchasing Center: Climate Systems & Equipment' at the Climate World exhibition."
     },
     aud: {
       eyebrow: "Who it's for", title: "Two sides of one deal",
-      lead: "The event brings together those who produce and supply textiles and those who buy them for their business.",
+      lead: "The event connects textile producers and suppliers directly with buyers from chains, factories and businesses — no intermediaries, no cold emails.",
       supplier: {
         title: "For suppliers", sub: "Textiles · equipment · fittings",
         items: [
-          "Direct access to buyers from factories, government procurement, HoReCa and retail.",
-          "The chance to show products live — samples, texture, quality.",
-          "A personal account on the platform with your product presentation and prices.",
-          "Feedback on price, packaging, terms and logistics.",
-          "Move from a cold contact to substantive negotiations in one day."
+          "Direct access to buyers authorized to close deals: chains, factories, government procurement, HoReCa.",
+          "Matchmaking: meetings are scheduled only with those interested in your category.",
+          "Buyer dossiers and negotiation prep — arrive with a ready offer.",
+          "Personal account: presentation, specifications, photos and product prices.",
+          "A protocol for every meeting and a preliminary contract on site."
         ]
       },
       buyer: {
         title: "For buyers", sub: "Factories · government · HoReCa · retail",
         items: [
-          "A concentrated overview of textile suppliers in a single day.",
-          "The chance to see and touch products live.",
-          "Online access to every supplier's presentation in your account.",
-          "Compare several suppliers within one category.",
-          "Direct negotiations instead of a stream of cold emails."
+          "The entire relevant textile market in one place — vetted suppliers only.",
+          "Exclusive access to market novelties: new fabrics, technologies, compositions and solutions.",
+          "A personal meeting schedule in your categories only.",
+          "The product live: assess texture and quality, ask questions directly.",
+          "A structured protocol for every agreement — faster internal approval."
         ]
       }
     },
     cats: {
       eyebrow: "Product scope",
-      title: "Categories to be bought and supplied",
-      lead: "The textile market — from raw materials to finished goods and equipment.",
+      title: "Proposed product categories",
+      lead: "From raw materials to finished goods, equipment and fittings.",
       items: [
         "Raw materials and fibers",
         "Yarn, threads and sewing threads",
@@ -462,12 +510,12 @@ window.I18N = {
       ]
     },
     how: {
-      eyebrow: "How it works", title: "One day — from presentation to agreements",
+      eyebrow: "How it works", title: "How the day works",
       steps: [
-        { n: "01", title: "Register on the platform", text: "Suppliers and buyers receive a personal account on the B2B platform." },
-        { n: "02", title: "Upload your products", text: "The supplier posts a presentation, samples and prices in the account." },
-        { n: "03", title: "Direct negotiations", text: "On event day — meetings at the negotiation tables in the Uzexpocentre." },
-        { n: "04", title: "Agreements", text: "The buyer sees offers online and records outcomes and preliminary contracts." }
+        { n: "01", title: "Registration & matchmaking", text: "Participants register on the platform; the system matches relevant pairs by category." },
+        { n: "02", title: "Upload your products", text: "The supplier posts a presentation, specifications, photos and prices." },
+        { n: "03", title: "Negotiations at the tables", text: "Targeted meetings in the Uzexpocentre negotiation zone, on schedule." },
+        { n: "04", title: "Agreements", text: "Outcomes and the preliminary contract are recorded in the account." }
       ],
       hall: {
         title: "How the hall is arranged",
