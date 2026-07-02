@@ -7,13 +7,13 @@ window.I18N = {
 
   /* ─────────────────────────── РУССКИЙ ─────────────────────────── */
   ru: {
-    meta: { title: "Центр Закупок Сетей: Текстиль — TextileExpo Uzbekistan 2026, Ташкент" },
+    meta: { title: "Центр Закупок: Текстиль — TextileExpo Uzbekistan 2026, Ташкент" },
     langName: "Русский",
     nav: { about: "О мероприятии", audience: "Для кого", cats: "Категории", how: "Как проходит", reviews: "Отзывы", contacts: "Контакты", cta: "Участвовать" },
     hero: {
       badge1: "TextileExpo Uzbekistan 2026", badge2: "B2B Meetings",
-      title: "Центр Закупок Сетей:", titleAccent: "Текстиль",
-      slogan: "Договоритесь о поставках текстиля напрямую в торговые сети и на фабрики — на прямых переговорах за один день, по технологии Центра Закупок Сетей.",
+      title: "Центр Закупок:", titleAccent: "Текстиль",
+      slogan: "Договоритесь о поставках текстиля напрямую в торговые сети и на фабрики — на прямых переговорах за один день, по технологии Центра Закупок.",
       dateLabel: "Дата", dateVal: "9 сентября 2026",
       placeLabel: "Место", placeVal: "Узэкспоцентр, Ташкент",
       formatLabel: "Формат", formatVal: "Деловые B2B-встречи",
@@ -31,12 +31,12 @@ window.I18N = {
     about: {
       eyebrow: "О мероприятии",
       title: "Технология прямых переговоров поставщика с закупщиком",
-      p1: "<strong>Центр Закупок Сетей™</strong> — технология организации деловых переговоров, при которой поставщик лично проводит экспресс-презентацию закупщику и договаривается о поставках текстиля торговым сетям, фабрикам и профильным компаниям. Проходит в рамках выставки <strong>TextileExpo Uzbekistan 2026</strong>, Узэкспоцентр, Ташкент.",
+      p1: "<strong>Центр Закупок™</strong> — технология организации деловых переговоров, при которой поставщик лично проводит экспресс-презентацию закупщику и договаривается о поставках текстиля торговым сетям, фабрикам и профильным компаниям. Проходит в рамках выставки <strong>TextileExpo Uzbekistan 2026</strong>, Узэкспоцентр, Ташкент.",
       p2: "Интересы сторон анализируются заранее: встречи подбираются по конкретной категории продукции — закупщик и поставщик садятся за стол по делу, а не случайно.",
       p3: "По опыту формата более <strong>60% переговоров</strong> завершаются подписанием предварительного договора о поставках — прямо на площадке.",
       platform: {
         tag: "Платформа мероприятия", title: "Онлайн-платформа мероприятия",
-        desc: "Все участники регистрируются на специальной B2B-платформе — она разработана под Центр Закупок Сетей и аккредитована в Сколково. У каждого свой личный кабинет с презентациями, итогами переговоров и предварительными договорами.",
+        desc: "Все участники регистрируются на специальной B2B-платформе — она разработана под Центр Закупок и аккредитована в Сколково. У каждого свой личный кабинет с презентациями, итогами переговоров и предварительными договорами.",
         li1: "Поставщик загружает презентацию, спецификации, фото и цены товара.",
         li2: "Закупщик изучает предложения за персональным компьютером на площадке.",
         li3: "Итоги фиксируются в реальном времени, предварительный договор формируется в личном кабинете."
@@ -52,7 +52,7 @@ window.I18N = {
         { num: "60%+", label: "встреч → предварительный договор" },
         { num: "200+", label: "категорийных закупщиков" }
       ],
-      note: "Формат работает и для непродовольственных категорий — например, «Центр Закупок Сетей: Климатические системы и оборудование» на международной выставке «Мир Климата»."
+      note: "Формат работает и для непродовольственных категорий — например, «Центр Закупок: Климатические системы и оборудование» на международной выставке «Мир Климата»."
     },
     aud: {
       eyebrow: "Для кого", title: "Две стороны одной сделки",
@@ -110,17 +110,17 @@ window.I18N = {
       },
       gallery: {
         eyebrow: "Как это выглядит", title: "Атмосфера переговоров",
-        note: "Фотографии с предыдущих Центров Закупок Сетей.",
+        note: "Фотографии с предыдущих Центров Закупок.",
         phLabel: "Фото переговоров"
       }
     },
     reviews: {
       eyebrow: "Отзывы", title: "Что говорят участники прошлых встреч",
-      note: "На основе отзывов о Центре Закупок Сетей.",
+      note: "На основе отзывов о Центре Закупок.",
       cta: "Смотреть отзывы на Яндексе",
       items: [
         { text: "Отличное место встретиться с торговыми сетями и переговорить. Очень приятные организаторы. И в целом организация на высшем уровне! Рады были поучаствовать в ЦЗС 2026.", name: "Валерия Соковикова", company: "Яндекс Отзывы · ★★★★★", initials: "ВС" },
-        { text: "Участвовал два раза в Центре Закупок Сетей и оба раза пребывал под впечатлением от масштаба и организации мероприятия. Наши стенды всегда посещает огромное количество закупщиков, что даёт нам возможность презентовать свои товары максимально широкой аудитории.", name: "Aleksey Astafiev", company: "Яндекс Отзывы · ★★★★★", initials: "AA" },
+        { text: "Участвовал два раза в Центре Закупок и оба раза пребывал под впечатлением от масштаба и организации мероприятия. Наши стенды всегда посещает огромное количество закупщиков, что даёт нам возможность презентовать свои товары максимально широкой аудитории.", name: "Aleksey Astafiev", company: "Яндекс Отзывы · ★★★★★", initials: "AA" },
         { text: "Эффективное мероприятие для продвижения своих продуктов в сети.", name: "Михаил Я.", company: "Яндекс Отзывы · ★★★★★", initials: "МЯ" }
       ]
     },
@@ -129,7 +129,7 @@ window.I18N = {
       lead: "Свяжитесь с организаторами, чтобы забронировать участие как поставщик или закупщик.",
       people: [
         { name: "Азиза Алимова", role: "Директор выставки", org: "TextileExpo Uzbekistan", phone: "+998 97 333 71 31", telegram: "@aziza0106" },
-        { name: "Марина Савельева", role: "Ивент-директор", org: "Центр Закупок Сетей · Империя Форум", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
+        { name: "Марина Савельева", role: "Ивент-директор", org: "Центр Закупок · Империя Форум", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
         { name: "Сергей Боровских", role: "Генеральный директор", org: "Платформа SaleTracker", email: "info@saletracker.online", telegram: "@boroffskikh" }
       ],
       cta: "Оставить заявку на участие"
@@ -137,22 +137,22 @@ window.I18N = {
     footer: {
       tagline: "Деловой формат прямых переговоров текстильного рынка в рамках выставки TextileExpo Uzbekistan.",
       col1: "Организатор выставки", col1items: ["Iteca Group"],
-      col2: "Организатор Центра Закупок Сетей", col2items: ["Империя Форум"],
+      col2: "Организатор Центра Закупок", col2items: ["Империя Форум"],
       col3: "Лицензия платформы", col3items: ["ООО «Сейл Трекер»"],
-      rights: "© 2026 Центр Закупок Сетей: Текстиль. Все права защищены.",
+      rights: "© 2026 Центр Закупок: Текстиль. Все права защищены.",
       place: "Ташкент · Узбекистан"
     }
   },
 
   /* ─────────────────────────── OʻZBEKCHA ─────────────────────────── */
   uz: {
-    meta: { title: "Tarmoqlar Xarid Markazi: Toʻqimachilik — TextileExpo Uzbekistan 2026, Toshkent" },
+    meta: { title: "Xarid Markazi: Toʻqimachilik — TextileExpo Uzbekistan 2026, Toshkent" },
     langName: "Oʻzbekcha",
     nav: { about: "Tadbir haqida", audience: "Kim uchun", cats: "Kategoriyalar", how: "Qanday oʻtadi", reviews: "Fikrlar", contacts: "Aloqa", cta: "Ishtirok etish" },
     hero: {
       badge1: "TextileExpo Uzbekistan 2026", badge2: "B2B uchrashuvlar",
-      title: "Tarmoqlar Xarid Markazi:", titleAccent: "Toʻqimachilik",
-      slogan: "Toʻqimachilik mahsulotlaringizni yirik savdo tarmoqlari va fabrikalarga toʻgʻridan-toʻgʻri yetkazib berish boʻyicha bir kunda kelishing — Tarmoqlar Xarid Markazi texnologiyasi asosida.",
+      title: "Xarid Markazi:", titleAccent: "Toʻqimachilik",
+      slogan: "Toʻqimachilik mahsulotlaringizni yirik savdo tarmoqlari va fabrikalarga toʻgʻridan-toʻgʻri yetkazib berish boʻyicha bir kunda kelishing — Xarid Markazi texnologiyasi asosida.",
       dateLabel: "Sana", dateVal: "2026-yil 9-sentyabr",
       placeLabel: "Manzil", placeVal: "Uzexpocentre, Toshkent",
       formatLabel: "Format", formatVal: "B2B ishbilarmonlik uchrashuvlari",
@@ -170,12 +170,12 @@ window.I18N = {
     about: {
       eyebrow: "Tadbir haqida",
       title: "Yetkazib beruvchi va tarmoq oʻrtasidagi toʻgʻridan-toʻgʻri muzokaralar texnologiyasi",
-      p1: "<strong>Tarmoqlar Xarid Markazi™</strong> — ishbilarmonlik muzokaralarini tashkil etish texnologiyasi boʻlib, unda yetkazib beruvchi xaridorga shaxsan ekspress-taqdimot oʻtkazadi va toʻqimachilik mahsulotlarini yirik savdo tarmoqlari hamda fabrikalarga yetkazib berish boʻyicha kelishadi. <strong>TextileExpo Uzbekistan 2026</strong> koʻrgazmasi doirasida (Uzexpocentre, Toshkent) oʻtadi.",
+      p1: "<strong>Xarid Markazi™</strong> — ishbilarmonlik muzokaralarini tashkil etish texnologiyasi boʻlib, unda yetkazib beruvchi xaridorga shaxsan ekspress-taqdimot oʻtkazadi va toʻqimachilik mahsulotlarini yirik savdo tarmoqlari hamda fabrikalarga yetkazib berish boʻyicha kelishadi. <strong>TextileExpo Uzbekistan 2026</strong> koʻrgazmasi doirasida (Uzexpocentre, Toshkent) oʻtadi.",
       p2: "Tomonlarning qiziqishlari oldindan tahlil qilinadi: uchrashuvlar <strong>faqat manfaatdor</strong> xaridor va yetkazib beruvchilar oʻrtasida aniq mahsulot toifasi boʻyicha tayinlanadi. Tasodifiy aloqalar yoʻq — faqat maqsadli muzokaralar.",
-      p3: "Tarmoqlar Xarid Markazi tajribasiga koʻra muzokaralarning <strong>80%+</strong> yetkazib berish boʻyicha dastlabki shartnoma imzolash bilan yakunlanadi — bevosita maydonda.",
+      p3: "Xarid Markazi tajribasiga koʻra muzokaralarning <strong>80%+</strong> yetkazib berish boʻyicha dastlabki shartnoma imzolash bilan yakunlanadi — bevosita maydonda.",
       platform: {
-        tag: "Tadbir platformasi", title: "Tarmoqlar Xarid Markazi onlayn-platformasi",
-        desc: "Barcha ishtirokchilar maxsus B2B-platformada roʻyxatdan oʻtgan (Tarmoqlar Xarid Markazi uchun ishlab chiqilgan, Skolkovo akkreditatsiyasi). Har birida taqdimotlar, muzokaralar yakunlari va dastlabki shartnomalar bilan shaxsiy kabinet.",
+        tag: "Tadbir platformasi", title: "Xarid Markazi onlayn-platformasi",
+        desc: "Barcha ishtirokchilar maxsus B2B-platformada roʻyxatdan oʻtgan (Xarid Markazi uchun ishlab chiqilgan, Skolkovo akkreditatsiyasi). Har birida taqdimotlar, muzokaralar yakunlari va dastlabki shartnomalar bilan shaxsiy kabinet.",
         li1: "Yetkazib beruvchi taqdimot, spetsifikatsiya, foto va mahsulot narxlarini yuklaydi.",
         li2: "Xaridor maydonda shaxsiy kompyuterda takliflarni oʻrganadi.",
         li3: "Yakunlar real vaqtda qayd etiladi, dastlabki shartnoma shaxsiy kabinetda shakllanadi."
@@ -183,15 +183,15 @@ window.I18N = {
     },
     results: {
       eyebrow: "Format natijalari",
-      title: "Tarmoqlar Xarid Markazi allaqachon ishlaydi",
-      lead: "Texnologiyani «Imperia Forum» MChJ Rossiya va MDH yetakchi koʻrgazmalarida oʻtkazadi. WorldFood Moscow 2025 dagi Tarmoqlar Xarid Markazi yakunlari:",
+      title: "Xarid Markazi allaqachon ishlaydi",
+      lead: "Texnologiyani «Imperia Forum» MChJ Rossiya va MDH yetakchi koʻrgazmalarida oʻtkazadi. WorldFood Moscow 2025 dagi Xarid Markazi yakunlari:",
       items: [
         { num: "3 528", label: "bitta tadbirdagi muzokaralar" },
         { num: "2 834", label: "tuzilgan shartnoma" },
         { num: "80%+", label: "uchrashuv → dastlabki shartnoma" },
         { num: "200+", label: "tarmoqlarning toifa xaridorlari" }
       ],
-      note: "Format nooziq-ovqat toifalari uchun ham ishlaydi — masalan, «Mir Klimata» koʻrgazmasidagi «Tarmoqlar Xarid Markazi: Iqlim tizimlari va jihozlari»."
+      note: "Format nooziq-ovqat toifalari uchun ham ishlaydi — masalan, «Mir Klimata» koʻrgazmasidagi «Xarid Markazi: Iqlim tizimlari va jihozlari»."
     },
     aud: {
       eyebrow: "Kim uchun", title: "Bir bitimning ikki tarafi",
@@ -248,17 +248,17 @@ window.I18N = {
       },
       gallery: {
         eyebrow: "Bu qanday koʻrinadi", title: "Muzokaralar muhiti",
-        note: "Oldingi Tarmoqlar Xarid Markazlaridan fotosuratlar.",
+        note: "Oldingi Xarid Markazlaridan fotosuratlar.",
         phLabel: "Muzokaralar fotosi"
       }
     },
     reviews: {
       eyebrow: "Fikrlar", title: "Oldingi uchrashuv ishtirokchilari nima deydi",
-      note: "Tarmoqlar Xarid Markazi haqidagi fikrlar asosida.",
+      note: "Xarid Markazi haqidagi fikrlar asosida.",
       cta: "Yandexda fikrlarni koʻrish",
       items: [
-        { text: "Savdo tarmoqlari bilan uchrashish va muzokara qilish uchun ajoyib joy. Tashkilotchilar juda yoqimli. Umuman, tashkilot eng yuqori darajada! Tarmoqlar Xarid Markazi 2026da ishtirok etganimizdan xursandmiz.", name: "Валерия Соковикова", company: "Yandex sharhlari · ★★★★★", initials: "ВС" },
-        { text: "Tarmoqlar Xarid Markazida ikki marta ishtirok etdim va har ikkalasida ham tadbir koʻlami va tashkilotidan taassurot oldim. Bizning stendlarimizga doimo koʻplab xaridorlar tashrif buyuradi, bu bizga mahsulotlarimizni keng auditoriyaga taqdim etish imkonini beradi.", name: "Aleksey Astafiev", company: "Yandex sharhlari · ★★★★★", initials: "AA" },
+        { text: "Savdo tarmoqlari bilan uchrashish va muzokara qilish uchun ajoyib joy. Tashkilotchilar juda yoqimli. Umuman, tashkilot eng yuqori darajada! Xarid Markazi 2026da ishtirok etganimizdan xursandmiz.", name: "Валерия Соковикова", company: "Yandex sharhlari · ★★★★★", initials: "ВС" },
+        { text: "Xarid Markazida ikki marta ishtirok etdim va har ikkalasida ham tadbir koʻlami va tashkilotidan taassurot oldim. Bizning stendlarimizga doimo koʻplab xaridorlar tashrif buyuradi, bu bizga mahsulotlarimizni keng auditoriyaga taqdim etish imkonini beradi.", name: "Aleksey Astafiev", company: "Yandex sharhlari · ★★★★★", initials: "AA" },
         { text: "Mahsulotlaringizni tarmoqlarda ilgari surish uchun samarali tadbir.", name: "Михаил Я.", company: "Yandex sharhlari · ★★★★★", initials: "МЯ" }
       ]
     },
@@ -267,7 +267,7 @@ window.I18N = {
       lead: "Yetkazib beruvchi yoki xaridor sifatida ishtirokni band qilish uchun tashkilotchilar bilan bogʻlaning.",
       people: [
         { name: "Aziza Alimova", role: "Koʻrgazma direktori", org: "TextileExpo Uzbekistan", phone: "+998 97 333 71 31", telegram: "@aziza0106" },
-        { name: "Marina Saveleva", role: "Ivent-direktor", org: "Tarmoqlar Xarid Markazi · Imperia Forum", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
+        { name: "Marina Saveleva", role: "Ivent-direktor", org: "Xarid Markazi · Imperia Forum", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
         { name: "Sergey Borovskix", role: "Bosh direktor", org: "SaleTracker platformasi", email: "info@saletracker.online", telegram: "@boroffskikh" }
       ],
       cta: "Ishtirok uchun ariza qoldirish"
@@ -275,22 +275,22 @@ window.I18N = {
     footer: {
       tagline: "TextileExpo Uzbekistan koʻrgazmasi doirasida toʻqimachilik bozorining toʻgʻridan-toʻgʻri muzokaralari formati.",
       col1: "Koʻrgazma tashkilotchisi", col1items: ["Iteca Group"],
-      col2: "Tarmoqlar Xarid Markazi tashkilotchisi", col2items: ["Imperia Forum"],
+      col2: "Xarid Markazi tashkilotchisi", col2items: ["Imperia Forum"],
       col3: "Platforma litsenziyasi", col3items: ["«Sale Tracker» MChJ"],
-      rights: "© 2026 Tarmoqlar Xarid Markazi: Toʻqimachilik. Barcha huquqlar himoyalangan.",
+      rights: "© 2026 Xarid Markazi: Toʻqimachilik. Barcha huquqlar himoyalangan.",
       place: "Toshkent · Oʻzbekiston"
     }
   },
 
   /* ─────────────────────────── 中文 ─────────────────────────── */
   zh: {
-    meta: { title: "连锁采购中心：纺织 — TextileExpo Uzbekistan 2026，塔什干" },
+    meta: { title: "采购中心：纺织 — TextileExpo Uzbekistan 2026，塔什干" },
     langName: "中文",
     nav: { about: "关于活动", audience: "面向人群", cats: "品类", how: "活动流程", reviews: "评价", contacts: "联系方式", cta: "报名参加" },
     hero: {
       badge1: "TextileExpo Uzbekistan 2026", badge2: "B2B 商务洽谈",
-      title: "连锁采购中心：", titleAccent: "纺织",
-      slogan: "按连锁采购中心的技术，一天之内就纺织品直接供货给大型零售连锁与工厂达成约定。",
+      title: "采购中心：", titleAccent: "纺织",
+      slogan: "按采购中心的技术，一天之内就纺织品直接供货给大型零售连锁与工厂达成约定。",
       dateLabel: "日期", dateVal: "2026年9月9日",
       placeLabel: "地点", placeVal: "乌兹别克斯坦展览中心，塔什干",
       formatLabel: "形式", formatVal: "B2B 商务洽谈",
@@ -308,12 +308,12 @@ window.I18N = {
     about: {
       eyebrow: "关于活动",
       title: "供应商与连锁直接洽谈的技术",
-      p1: "<strong>连锁采购中心™</strong> 是一种组织商务洽谈的技术：供应商亲自向采购商进行快速展示，就纺织品供货给大型零售连锁与工厂达成约定。在 <strong>TextileExpo Uzbekistan 2026</strong> 展会期间于乌兹别克斯坦展览中心（塔什干）举办。",
+      p1: "<strong>采购中心™</strong> 是一种组织商务洽谈的技术：供应商亲自向采购商进行快速展示，就纺织品供货给大型零售连锁与工厂达成约定。在 <strong>TextileExpo Uzbekistan 2026</strong> 展会期间于乌兹别克斯坦展览中心（塔什干）举办。",
       p2: "双方意向预先分析：会面<strong>只在感兴趣的</strong>采购商与供应商之间、按具体产品品类安排。没有随机接触 —— 只有精准洽谈。",
-      p3: "据连锁采购中心的经验，超过 <strong>80% 的洽谈</strong>当场以签署供货初步合同结束。",
+      p3: "据采购中心的经验，超过 <strong>80% 的洽谈</strong>当场以签署供货初步合同结束。",
       platform: {
-        tag: "活动平台", title: "连锁采购中心在线平台",
-        desc: "所有参与者均在专用 B2B 平台注册（为连锁采购中心开发，获斯科尔科沃认证）。每人拥有个人后台，含演示、洽谈结果与初步合同。",
+        tag: "活动平台", title: "采购中心在线平台",
+        desc: "所有参与者均在专用 B2B 平台注册（为采购中心开发，获斯科尔科沃认证）。每人拥有个人后台，含演示、洽谈结果与初步合同。",
         li1: "供应商上传演示、规格、照片与产品价格。",
         li2: "采购商在现场通过个人电脑研究各项提案。",
         li3: "结果实时记录，初步合同在个人后台生成。"
@@ -321,15 +321,15 @@ window.I18N = {
     },
     results: {
       eyebrow: "成效数据",
-      title: "连锁采购中心已在运作",
-      lead: "该技术由「Imperia Forum」有限责任公司在俄罗斯及独联体的领先展会上举办。WorldFood Moscow 2025 连锁采购中心成果：",
+      title: "采购中心已在运作",
+      lead: "该技术由「Imperia Forum」有限责任公司在俄罗斯及独联体的领先展会上举办。WorldFood Moscow 2025 采购中心成果：",
       items: [
         { num: "3 528", label: "单场活动洽谈次数" },
         { num: "2 834", label: "已签署合同" },
         { num: "80%+", label: "洽谈 → 初步合同" },
         { num: "200+", label: "连锁品类采购商" }
       ],
-      note: "该模式同样适用于非食品品类 —— 例如「气候世界」展会上的「连锁采购中心：气候系统与设备」。"
+      note: "该模式同样适用于非食品品类 —— 例如「气候世界」展会上的「采购中心：气候系统与设备」。"
     },
     aud: {
       eyebrow: "面向人群", title: "一笔交易的两方",
@@ -386,17 +386,17 @@ window.I18N = {
       },
       gallery: {
         eyebrow: "现场一览", title: "洽谈氛围",
-        note: "往届连锁采购中心的照片。",
+        note: "往届采购中心的照片。",
         phLabel: "洽谈照片"
       }
     },
     reviews: {
       eyebrow: "评价", title: "往届参与者的评价",
-      note: "基于对连锁采购中心的评价。",
+      note: "基于对采购中心的评价。",
       cta: "在 Yandex 查看评价",
       items: [
-        { text: "与零售连锁见面洽谈的绝佳场所。组织者非常友善，整体组织水平很高！很高兴参加了 2026 年连锁采购中心。", name: "Валерия Соковикова", company: "Yandex 评价 · ★★★★★", initials: "ВС" },
-        { text: "我两次参加连锁采购中心，每次都对活动的规模和组织印象深刻。我们的展台总是吸引大量采购商，让我们能够向最广泛的受众展示产品。", name: "Aleksey Astafiev", company: "Yandex 评价 · ★★★★★", initials: "AA" },
+        { text: "与零售连锁见面洽谈的绝佳场所。组织者非常友善，整体组织水平很高！很高兴参加了 2026 年采购中心。", name: "Валерия Соковикова", company: "Yandex 评价 · ★★★★★", initials: "ВС" },
+        { text: "我两次参加采购中心，每次都对活动的规模和组织印象深刻。我们的展台总是吸引大量采购商，让我们能够向最广泛的受众展示产品。", name: "Aleksey Astafiev", company: "Yandex 评价 · ★★★★★", initials: "AA" },
         { text: "推广产品进入连锁渠道的高效活动。", name: "Михаил Я.", company: "Yandex 评价 · ★★★★★", initials: "МЯ" }
       ]
     },
@@ -405,7 +405,7 @@ window.I18N = {
       lead: "如需以供应商或采购商身份预订参与，请联系组织方。",
       people: [
         { name: "Aziza Alimova（阿齐扎·阿利莫娃）", role: "展会总监", org: "TextileExpo Uzbekistan", phone: "+998 97 333 71 31", telegram: "@aziza0106" },
-        { name: "Marina Saveleva（玛丽娜·萨韦利耶娃）", role: "活动总监", org: "连锁采购中心 · Imperia Forum", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
+        { name: "Marina Saveleva（玛丽娜·萨韦利耶娃）", role: "活动总监", org: "采购中心 · Imperia Forum", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
         { name: "Sergey Borovskikh（谢尔盖·博罗夫斯基赫）", role: "总经理", org: "SaleTracker 平台", email: "info@saletracker.online", telegram: "@boroffskikh" }
       ],
       cta: "提交参与申请"
@@ -413,22 +413,22 @@ window.I18N = {
     footer: {
       tagline: "TextileExpo Uzbekistan 展会期间纺织市场的直接洽谈形式。",
       col1: "展会主办方", col1items: ["Iteca Group"],
-      col2: "连锁采购中心主办方", col2items: ["Imperia Forum"],
+      col2: "采购中心主办方", col2items: ["Imperia Forum"],
       col3: "平台授权方", col3items: ["Sale Tracker 有限责任公司"],
-      rights: "© 2026 连锁采购中心：纺织。版权所有。",
+      rights: "© 2026 采购中心：纺织。版权所有。",
       place: "塔什干 · 乌兹别克斯坦"
     }
   },
 
   /* ─────────────────────────── ENGLISH ─────────────────────────── */
   en: {
-    meta: { title: "Networks Purchasing Center: Textile — TextileExpo Uzbekistan 2026, Tashkent" },
+    meta: { title: "Purchasing Center: Textile — TextileExpo Uzbekistan 2026, Tashkent" },
     langName: "English",
     nav: { about: "About", audience: "Who it's for", cats: "Categories", how: "How it works", reviews: "Reviews", contacts: "Contacts", cta: "Take part" },
     hero: {
       badge1: "TextileExpo Uzbekistan 2026", badge2: "B2B Meetings",
-      title: "Networks Purchasing Center:", titleAccent: "Textile",
-      slogan: "Agree on supplying your textiles directly to major retail chains and factories — in one day of direct negotiations, using the Networks Purchasing Center technology.",
+      title: "Purchasing Center:", titleAccent: "Textile",
+      slogan: "Agree on supplying your textiles directly to major retail chains and factories — in one day of direct negotiations, using the Purchasing Center technology.",
       dateLabel: "Date", dateVal: "September 9, 2026",
       placeLabel: "Venue", placeVal: "Uzexpocentre, Tashkent",
       formatLabel: "Format", formatVal: "B2B business meetings",
@@ -446,12 +446,12 @@ window.I18N = {
     about: {
       eyebrow: "About the event",
       title: "A technology for direct supplier-to-chain negotiations",
-      p1: "<strong>Networks Purchasing Center™</strong> is a technology for running business negotiations, where a supplier personally gives an express presentation to a buyer and agrees on supplying textiles to major retail chains and factories. Held within the <strong>TextileExpo Uzbekistan 2026</strong> exhibition (Uzexpocentre, Tashkent).",
+      p1: "<strong>Purchasing Center™</strong> is a technology for running business negotiations, where a supplier personally gives an express presentation to a buyer and agrees on supplying textiles to major retail chains and factories. Held within the <strong>TextileExpo Uzbekistan 2026</strong> exhibition (Uzexpocentre, Tashkent).",
       p2: "Both sides' interests are analyzed in advance: meetings are scheduled <strong>only between interested</strong> buyers and suppliers for a specific product category. No random contacts — only targeted negotiations.",
-      p3: "Based on Networks Purchasing Center experience, over <strong>80% of negotiations</strong> end with a signed preliminary supply contract — right on site.",
+      p3: "Based on Purchasing Center experience, over <strong>80% of negotiations</strong> end with a signed preliminary supply contract — right on site.",
       platform: {
-        tag: "Event platform", title: "The Networks Purchasing Center online platform",
-        desc: "All participants are registered on a dedicated B2B platform (built for the Networks Purchasing Center, accredited by Skolkovo). Everyone has a personal account with presentations, negotiation results and preliminary contracts.",
+        tag: "Event platform", title: "The Purchasing Center online platform",
+        desc: "All participants are registered on a dedicated B2B platform (built for the Purchasing Center, accredited by Skolkovo). Everyone has a personal account with presentations, negotiation results and preliminary contracts.",
         li1: "The supplier uploads a presentation, specifications, photos and product prices.",
         li2: "The buyer reviews offers on a personal computer on site.",
         li3: "Outcomes are recorded in real time; the preliminary contract is generated in the account."
@@ -459,15 +459,15 @@ window.I18N = {
     },
     results: {
       eyebrow: "Proven results",
-      title: "The Networks Purchasing Center already works",
-      lead: "The technology is run by Imperia Forum LLC at leading exhibitions across Russia and the CIS. Results of the Networks Purchasing Center at WorldFood Moscow 2025:",
+      title: "The Purchasing Center already works",
+      lead: "The technology is run by Imperia Forum LLC at leading exhibitions across Russia and the CIS. Results of the Purchasing Center at WorldFood Moscow 2025:",
       items: [
         { num: "3,528", label: "negotiations at one event" },
         { num: "2,834", label: "contracts signed" },
         { num: "80%+", label: "meetings → preliminary contract" },
         { num: "200+", label: "category buyers from retail chains" }
       ],
-      note: "The format also works for non-food categories — e.g. 'Networks Purchasing Center: Climate Systems & Equipment' at the Climate World exhibition."
+      note: "The format also works for non-food categories — e.g. 'Purchasing Center: Climate Systems & Equipment' at the Climate World exhibition."
     },
     aud: {
       eyebrow: "Who it's for", title: "Two sides of one deal",
@@ -524,17 +524,17 @@ window.I18N = {
       },
       gallery: {
         eyebrow: "What it looks like", title: "The atmosphere of negotiations",
-        note: "Photos from previous Networks Purchasing Centers.",
+        note: "Photos from previous Purchasing Centers.",
         phLabel: "Negotiation photo"
       }
     },
     reviews: {
       eyebrow: "Reviews", title: "What past participants say",
-      note: "Based on reviews of the Networks Purchasing Center.",
+      note: "Based on reviews of the Purchasing Center.",
       cta: "See reviews on Yandex",
       items: [
-        { text: "A great place to meet retail chains and talk things through. Very pleasant organizers, and the organization overall is top-notch! We were glad to take part in the Networks Purchasing Center 2026.", name: "Валерия Соковикова", company: "Yandex reviews · ★★★★★", initials: "ВС" },
-        { text: "I took part in the Networks Purchasing Center twice and both times was impressed by the scale and organization. Our stands are always visited by a huge number of buyers, which lets us present our products to the widest possible audience.", name: "Aleksey Astafiev", company: "Yandex reviews · ★★★★★", initials: "AA" },
+        { text: "A great place to meet retail chains and talk things through. Very pleasant organizers, and the organization overall is top-notch! We were glad to take part in the Purchasing Center 2026.", name: "Валерия Соковикова", company: "Yandex reviews · ★★★★★", initials: "ВС" },
+        { text: "I took part in the Purchasing Center twice and both times was impressed by the scale and organization. Our stands are always visited by a huge number of buyers, which lets us present our products to the widest possible audience.", name: "Aleksey Astafiev", company: "Yandex reviews · ★★★★★", initials: "AA" },
         { text: "An effective event for promoting your products into retail chains.", name: "Михаил Я.", company: "Yandex reviews · ★★★★★", initials: "МЯ" }
       ]
     },
@@ -543,7 +543,7 @@ window.I18N = {
       lead: "Get in touch with the organizers to book your participation as a supplier or a buyer.",
       people: [
         { name: "Aziza Alimova", role: "Exhibition Director", org: "TextileExpo Uzbekistan", phone: "+998 97 333 71 31", telegram: "@aziza0106" },
-        { name: "Marina Savelieva", role: "Event Director", org: "Networks Purchasing Center · Imperia Forum", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
+        { name: "Marina Savelieva", role: "Event Director", org: "Purchasing Center · Imperia Forum", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
         { name: "Sergey Borovskikh", role: "CEO", org: "SaleTracker platform", email: "info@saletracker.online", telegram: "@boroffskikh" }
       ],
       cta: "Submit a participation request"
@@ -551,9 +551,9 @@ window.I18N = {
     footer: {
       tagline: "A direct-negotiation format for the textile market, held within the TextileExpo Uzbekistan exhibition.",
       col1: "Exhibition organizer", col1items: ["Iteca Group"],
-      col2: "Networks Purchasing Center organizer", col2items: ["Imperia Forum"],
+      col2: "Purchasing Center organizer", col2items: ["Imperia Forum"],
       col3: "Platform license", col3items: ["Sale Tracker LLC"],
-      rights: "© 2026 Networks Purchasing Center: Textile. All rights reserved.",
+      rights: "© 2026 Purchasing Center: Textile. All rights reserved.",
       place: "Tashkent · Uzbekistan"
     }
   }
